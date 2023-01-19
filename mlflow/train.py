@@ -10,7 +10,7 @@ import tensorflow_hub as hub
 
 from sklearn.model_selection import train_test_split
 
-from sklearn.preprocessing import StandardScaler, OneHotEncoder, LabelEncoder
+from sklearn.preprocessing import LabelEncoder
 
 
 if __name__ == "__main__":
@@ -19,7 +19,7 @@ if __name__ == "__main__":
     start_time = time.time()
 
     EXPERIMENT_NAME = "vin"
-    mlflow.set_tracking_uri(os.environ["APP_URI"])
+    # mlflow.set_tracking_uri(os.environ["APP_URI"])
     mlflow.sklearn.autolog()
     mlflow.set_experiment(EXPERIMENT_NAME)
     experiment = mlflow.get_experiment_by_name(EXPERIMENT_NAME)

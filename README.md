@@ -1,6 +1,6 @@
 # Bloc-6---Direction-de-projets-de-gestion-de-donn-es
 
-video: https://share.vidyard.com/watch/ckQzB83kV5djTT7EcRKgP6?
+video: https://share.vidyard.com/watch/Dd3z1sNQGFnd6yVXukhKNz?
 
 certification: https://www.francecompetences.fr/recherche/rncp/35288/
 
